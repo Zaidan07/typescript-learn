@@ -1,6 +1,8 @@
 class OrangTua {
    public Nama = 'Idah';
    public Rambut = 'hitam';
+   private 
+   protected skill = ['makan', 'tidur', 'main']
 
     constructor (nama: string){
         this.Nama = nama
@@ -23,4 +25,5 @@ class Anak extends OrangTua {
         console.log('Saya seorang petani')
     }
 }
+
 console.log(new Anak('Jono').sapaan())
